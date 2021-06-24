@@ -1,0 +1,161 @@
+/*
+    FONTS:
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+*/
+
+/*GENERALES*/
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+p{
+    color: #8f8f8f;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+.nav-item{
+    padding: 0 10px;
+}
+
+/*INICIO*/
+#inicio{
+    background-image: url(imagenes/pantalla1.png);
+    background-size: cover;
+}
+#inicio .container-fluid{
+    padding: 3% 15% 30%;
+}
+.title-image{
+    width: 60%;
+    position: absolute;
+    right: 30%;
+    top: 50%;
+}
+.title-heading{
+    font-size: 5rem;
+    font-weight: 800;
+    padding-top: 50%;
+}
+.title-paragraph{
+    font-size: 2rem;
+}
+
+/*PRESENTACION*/
+#presentacion{
+    background-image: url(imagenes/presentacion.png);
+    background-size: cover;
+    text-align: center;
+}
+.presentacion-heading{
+    padding-top: 3rem;
+}
+.presentacion-heading, .presentacion-paragraph{
+    color: white;
+}
+.presentacion-foto{
+    width: 80%;
+    border-radius: 100%;
+    border: 4px white solid;
+}
+
+/*CONOCIMIENTOS*/
+#conocimientos{
+    background-image: url(imagenes/conocimientos.png);
+    background-size: cover;
+}
+#conocimentos .container-fluid{
+    padding: 10% 15% 20%;
+}
+.conociminetos-heading{
+    padding-bottom: 10rem;
+}
+.conocimientos-logos{
+    padding: 5% 3% 1rem;
+}
+
+/*SERVICIOS*/
+.servicios-heading{
+    padding-bottom: 3rem;
+}
+.servicios-graph:hover{
+    filter: opacity(.5);
+}
+.servicios-image{
+    padding: 10% 0 1rem;
+}
+
+/*PORTAFOLIO*/
+#portafolio{
+    background: #FFF5DA;
+}
+.portafolio-heading{
+    padding-bottom: 3rem;
+}
+.portafolio-images{
+    width: 200px;
+    height: 320px;
+}
+.portafolio-images:hover{
+    transform: scale(1.2);
+}
+
+/*CONTACTO*/
+#contacto{
+    background-image: url(imagenes/contacto.png);
+    background-size: cover;
+}
+#contacto .container-fluid{
+    line-height: 1.2;
+}
+.contacto-heading{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 1rem;
+}
+.contacto-paragraph{
+    color: dimgray;
+}
+/*FOOTER*/
+footer .container-fluid{
+    padding: 1%;
+}
+
+/*MEDIAS QUERY 991PX*/
+@media (max-width: 991px){
+    /*INICIO*/
+    #inicio{
+        text-align: center;
+    }
+    .title-image{
+        padding-top: 6rem;
+        width: 30%;
+    }
+    /*CONOCIMIENTOS*/
+    .conociminetos-heading{
+        padding-bottom: 5rem;
+    }
+    /*PRESENTACION*/
+    .presentacion-heading{
+        font-size: 4rem;
+    }
+    .presentacion-paragraph{
+        font-size: 1.3rem;
+    }
+    .presentacion-foto{
+        width: 40%;
+    }
+    /*PORTAFOLIO*/
+    .portafolio-images{
+        padding-bottom: 3rem;
+    }
+}
